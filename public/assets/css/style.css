@@ -31,11 +31,13 @@ img {
 #notdevoured {
     float: left;
     padding-left: 60px;
+    align-content: right;
 }
 
 #devoured {
     float: right;
     padding-right: 60px;
+    align-content: left;
 }
 
 .container {
