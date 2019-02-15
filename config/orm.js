@@ -44,14 +44,18 @@ const orm = {
     // insert one burger into database
     insert: (table, cols, vals, cb) => {
         let queryString = "INSERT INTO " + table;
-
-        queryString += ' (';
+        
+        // queryString += ' (';
+        // queryString += cols.toString();
+        // queryString += ') ';
+        // queryString += 'VALUES (';
+        // queryString += printQuestionMarks(vals.length);
+        // queryString += ') ';
+        queryString += " (";
         queryString += cols.toString();
-        queryString += ') ';
-        queryString += 'VALUES (';
-        queryString += printQuestionMarks(vals.length);
-        queryString += ') ';
-
+        queryString += ") ";
+        queryString += "VALUES (?);";
+        
         console.log(queryString);
 
         connection.query(queryString, [vals], (err, result) => {
