@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #048324;
+    text-align: center;
+    width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Cherry Cream Soda', cursive;
+    color: #ffffff;
+    font-size: 2.3em;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ffff2b;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+#notdevoured {
+    float: left;
+    padding-left: 60px;
+}
+
+#devoured {
+    float: right;
+    opacity: 0.5;
+    padding-right: 60px;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    align-content: center;
+}
