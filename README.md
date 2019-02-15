@@ -1,5 +1,3 @@
-### Still won't deploy on Heroku!!
-***
 ## Eat-Da-Burger
 A code demo wherein you get to describe/name a burger/food of your choice, and then log the fact that you have fake-consumed it. What? It's fun!
 
@@ -18,4 +16,4 @@ Constructed utilizing [Node](https://nodejs.org/en/) and the following packages:
 - All food items, once created, are stored in a MySQL database for later reference.
 
 ### Live App here: 
-- 
+- https://warm-basin-57121.herokuapp.com/
