@@ -1,6 +1,6 @@
 <div class="main">
 
-  <img src="/assets/img/burger.png" alt="tasty burger" max-width="250px" align="center">
+  <img class="meatLogo" src="/assets/img/burger.png" alt="tasty burger">
 
   <div class="container">
     <h1>Eat! Da! Burger!</h1>
@@ -21,7 +21,6 @@
 
     <ul id="devoured">
       <h3>Already devoured:</h3>
-      <button class="clearTable btn btn-secondary">Clear the scraps!</button>
       {{#each burgers}}
       {{#if devoured}}
       <li>
@@ -29,7 +28,9 @@
       </li>
       {{/if}}
       {{/each}}
+      <button class="clearTable btn btn-secondary">Clear the scraps!</button>
     </ul>
+    
   </div>
 
   <h3>Place your order:</h3>

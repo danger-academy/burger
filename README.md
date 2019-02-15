@@ -6,7 +6,7 @@ Constructed utilizing [Node](https://nodejs.org/en/) and the following packages:
 - [MySQL](https://www.npmjs.com/package/mysql), 
 - [Express](https://www.npmjs.com/package/express), 
 - [Handlebars](https://www.npmjs.com/package/express-handlebars)
-- and a homemade ORM.
+- and a home-brewed ORM.
 
 
 ### How does it work?
