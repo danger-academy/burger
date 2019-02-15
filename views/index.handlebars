@@ -1,12 +1,12 @@
 <div class="main">
 
-  <img src="/assets/img/8-1.jpg" alt="burger graphic" height="250px" width="350px" align="center">
+  <img src="/assets/img/burger.png" alt="tasty burger" max-width="350px" align="center">
 
   <div class="container">
-    <h1>EAT-DA-BURGER</h1>
+    <h1>Eat! Da! Burger!</h1>
 
     <ul id="notdevoured">
-      <h3>Waiting to be devoured</h3>
+      <h3>Ready to eat:</h3>
       {{#each burgers}}
       {{#unless devoured}}
       <li>
@@ -20,7 +20,7 @@
     </ul>
 
     <ul id="devoured">
-      <h3>Devoured</h3>
+      <h3>Already devoured:</h3>
       {{#each burgers}}
       {{#if devoured}}
       <li>
@@ -29,10 +29,10 @@
       {{/if}}
       {{/each}}
     </ul>
-    <button class="clearTable btn btn-secondary">Clear The Table</button>
+    <button class="clearTable btn btn-secondary">Clear the scraps!</button>
   </div>
 
-  <h3>Enter a Burger You Want then Click Submit!</h3>
+  <h3>Place your order:</h3>
 
   <form class="create-form">
 
@@ -40,6 +40,6 @@
       <input type="text" id="burgerSubmit" name="burger_name">
     </div>
 
-    <button type="submit">Add Burger</button>
+    <button type="submit">Order up!</button>
   </form>
 </div>
