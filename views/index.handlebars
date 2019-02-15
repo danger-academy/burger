@@ -21,6 +21,7 @@
 
     <ul id="devoured">
       <h3>Already devoured:</h3>
+      <button id="clearTable" class="btn btn-secondary">Clear the scraps!</button>
       {{#each burgers}}
       {{#if devoured}}
       <li>
@@ -29,7 +30,6 @@
       {{/if}}
       {{/each}}
     </ul>
-    <button id="clearTable" class="btn btn-secondary">Clear the scraps!</button>
   </div>
 
   <h3>Place your order:</h3>
